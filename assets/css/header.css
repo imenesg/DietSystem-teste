@@ -10,11 +10,13 @@ header{
     justify-content: center;
     align-items: center;
 }
-.home{
+header .home{
     position: absolute;
     left: 14px;
     border-radius: 50%;
     cursor: pointer;
+    width: 60px; ;
+    height: 55px;
 }
 .menu{
     position: absolute;
