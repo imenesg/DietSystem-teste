@@ -82,7 +82,7 @@ hr{
     padding-right: 8px;
 }
 #dados-paciente::before{
-    content: "";
+    content: url("../img/pessoa.png");
     padding-right: 8px;
 }
 #consulta::before{
