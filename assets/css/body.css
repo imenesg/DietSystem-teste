@@ -1,0 +1,7 @@
+body{
+    background-color: var(--color-2);
+    overflow-x: hidden;
+}
+.blur{
+    overflow: hidden;
+}

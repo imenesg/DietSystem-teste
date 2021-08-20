@@ -1,0 +1,131 @@
+header{
+    background-color: #fff;
+    padding: 35px 0 25px 0;
+}
+.header-top{
+    
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    position: absolute;
+    left: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.menu{
+    position: absolute;
+    right:14px;
+    font-size: 2rem;
+    cursor: pointer;
+    visibility: hidden;
+}
+.x{
+    visibility: hidden;
+    position: absolute;
+    right:14px;
+    top: 14px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.header-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+.nome-paciente{
+    margin-right: 10px;
+    color: var(--color-1);
+    font-weight: 600;
+}
+.idade-paciente{
+    color: var(--color-1);
+    
+}
+.idade-paciente::after{
+    content: url("/assets/img/clarity_edit-solid.png");
+    cursor: pointer;
+}
+hr{
+    width: 80%;
+}
+
+.informacoes-paciente ul{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 27px auto 0 auto;
+
+}
+.informacoes-paciente ul li{
+    display: flex;
+    align-items: center;
+    height: 25px;
+    cursor: pointer;
+}
+
+#funcionalidades::before{
+    content: url(/assets/img/funcionalidades.png);
+    padding-right: 8px;
+    
+
+}
+#anotações::before{
+    content: url(/assets/img/caderno.png);
+    padding-right: 8px;
+}
+#dados-paciente::before{
+    content: url(/assets/img/pessoa.png);
+    padding-right: 8px;
+}
+#consulta::before{
+    content: url(/assets/img/bandeirinha.png);
+    padding-right: 8px;
+}
+@media only screen and (max-width: 600px) {
+    .informacoes-paciente ul{
+        background-color: var(--color-white);
+        height: 100vh;
+        width: 100vw;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 35px auto 0 auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+        
+        
+    
+    }
+    .hide{
+        visibility: hidden;
+    }
+    .show{
+        visibility: visible;
+    }
+    .informacoes-paciente ul li{
+        display: flex;
+        align-items: center;
+        height: 25px;
+        cursor: pointer;
+        margin: 1rem 0;
+        font-size: 1.3rem;
+
+    }
+    .menu{
+        visibility: unset;
+    }
+    .x{
+        visibility: unset;
+    }
+}
