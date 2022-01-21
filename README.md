@@ -1,8 +1,8 @@
-# DietSyste 🍎
+# DietSystem 🍎
 
 
 
-## Um site teste para DietSyste.<br>
+## Um site teste para DietSystem.<br>
 <P>
   
   Veja algumas imagens do site. <br>
